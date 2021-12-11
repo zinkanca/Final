@@ -9,3 +9,5 @@ alarm[0] = 1;
 global.hp = 100;
 global.spd = 1;
 global.level = 1;
+
+global.coins = 10000;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprEnemy1",
-    "path": "sprites/sprEnemy1/sprEnemy1.yy",
+    "name": "sprTowerLightning",
+    "path": "sprites/sprTowerLightning/sprTowerLightning.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Dragged",
+    "path": "folders/Objects/Dragged.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objEnemy1",
+  "name": "objTowerLightningD",
   "tags": [],
   "resourceType": "GMObject",
 }
