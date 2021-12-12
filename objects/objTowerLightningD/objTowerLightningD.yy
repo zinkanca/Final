@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objTowerD",
+    "path": "objects/objTowerD/objTowerD.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

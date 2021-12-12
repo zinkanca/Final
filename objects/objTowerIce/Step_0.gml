@@ -9,14 +9,17 @@ if (en != noone)
 		{
 			alarm[0] = 1;
 			shooting = true;
+			
 		}
-		
+	
 		objectToShoot = en;
 		
 	}
+		
 else
 	{
 	shooting = false;
 	objectToShoot = noone;
 	}
 }
+
