@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
-//path_start(Path1, global.spd, 0, 1);
+event_inherited();
 hp = global.hp;
+
+isSlow = false;
+batSpeed = global.spd * 0.75;

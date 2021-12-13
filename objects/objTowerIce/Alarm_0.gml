@@ -5,6 +5,7 @@ if (instance_exists(objectToShoot))
 	var bulletIce = instance_create_depth(x, y, -9, objBulletIce);
 	bulletIce.speed = 15;
 	bulletIce.direction = point_direction(x, y, objectToShoot.x, objectToShoot.y);
+	audio_play_sound(soundBulletIce, 1, false);
 	alarm[0] = fire_rate;
 }
 else
